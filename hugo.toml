@@ -1,3 +1,4 @@
 baseURL = 'https://blog.reesilva/'
 languageCode = 'pt-br'
 title = 'reesilva'
+theme = 'ananke'
