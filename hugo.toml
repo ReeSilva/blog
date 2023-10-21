@@ -1,4 +1,47 @@
-baseURL = 'https://blog.reesilva/'
+baseURL = 'https://reesilva.github.io/blog'
 languageCode = 'pt-br'
 title = 'reesilva'
-theme = 'ananke'
+theme = 'terminal'
+paginate = 5
+defaultContentLanguage = "pt"
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "red"
+  showMenuItems = 2
+  showLanguageSelector = false
+  fullWidthTheme = true
+  centerTheme = false
+  autoCover = true
+  showLastUpdated = true
+  enableGitInfo = true
+  
+[languages]
+  [languages.pt]
+    languageName = "Português (Brasil)"
+    title = "ReeSilva"
+    subtitle = "As doideira da minha cabeça, na maioria das vezes ligado a tecnologia."
+    owner = "Renato Biancalana da Silva <reesilva@pm.me>"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mostrar mais"
+    readMore = "Ler mais"
+    readOtherPosts = "Ver outros posts"
+    newerPosts = "Posts mais recentes"
+    olderPosts = "Posts mais antigos"
+    missingContentMessage = "Oxi, tem nada aqui não, parça. 404 total..."
+    missingBackButtonLabel = "Voltar pra home"
+
+    [languages.pt.params.logo]
+      logoText = "ReeSilva"
+      logoHomeLink = "/"
+
+    [languages.pt.menu]
+      [[languages.pt.menu.main]]
+        identifier = "about"
+        name = "Sobre mim"
+        url = "/about"
+      [[languages.pt.menu.main]]
+        identifier = "showcase"
+        name = "Me \"amostrando\""
+        url = "/showcase"
