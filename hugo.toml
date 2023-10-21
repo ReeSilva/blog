@@ -34,7 +34,7 @@ defaultContentLanguage = "pt"
 
     [languages.pt.params.logo]
       logoText = "ReeSilva"
-      logoHomeLink = "/"
+      logoHomeLink = "/blog"
 
     [languages.pt.menu]
       [[languages.pt.menu.main]]
